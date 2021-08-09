@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.com/af9c2444-e751-4f30-8174-61049513cb09%2Ffavicon-desktop-512.png?v=1627913937061"
+    />
+    <title>Contact Page</title>
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://csa-project-template.glitch.me/" />
+    <meta name="description" content="A HTML/CSS website project template" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Judi's CSA Project Template Website" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://csa-project-template.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A simple website, built with basic HTML and CSS."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/af9c2444-e751-4f30-8174-61049513cb09%2Ffavicon-desktop-512.png?v=1627913937061"
+    />
+    <meta name="twitter:card" content="summary" />
+    <!-- 
+Normalize.css makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing.
+https://necolas.github.io/normalize.css/
+https://cdnjs.com/libraries/normalize 
+-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Import the webpage's stylesheet -->
+    <!-- External CSS - style.css     -->
+    <link rel="stylesheet" href="html/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="project.html">Project</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>
+        Contact Page
+      </h1>
+
+      <div class="grid-parent">
+        <div class="grid-child">
+          <h2>
+            Contact Info
+          </h2>
+          <ul>
+            <li><a href="tel:+1-234-567-8901">+1-234-567-8901</a></li>
+            <li><a href="mailto:someone@domain.com">someone@domain.com</a></li>
+          </ul>
+          <address>
+            123 St Place, #3<br />
+            City, State Zip
+          </address>
+        </div>
+        <div class="grid-child">
+          <h2>
+            Online Form
+          </h2>
+          <form>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" />
+            <br />
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" />
+            <br />
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Select City</option>
+              <option value="1">NY</option>
+              <option value="2">CT</option>
+              <option value="3">NJ</option>
+            </select>
+            <br />
+            <label for="email">Email</label>
+            <!--             <input type="text" id="email" name="email" /> -->
+            <input type="email" id="email" name="email" />
+            <br />
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" name="phone" />
+            <br />
+            <label for="message">Message</label>
+            <textarea row="4" cols="50"></textarea>
+            <br />
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      &copy; 2021 Project Name
+      <ul class="socialmedia">
+        <li><a href="#">IG</a></li>
+        <li><a href="#">FB</a></li>
+        <li><a href="#">YT</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
